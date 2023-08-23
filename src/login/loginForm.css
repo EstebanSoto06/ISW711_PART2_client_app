@@ -1,0 +1,34 @@
+.login-form {
+    display: flex;
+    height: 100vh;
+  }
+
+.login-form form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;;
+    background-color: #6131b9;
+    color: #fff;
+    height: 100vh;
+}
+
+.password{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.password .eye{
+  padding-left: 1rem;
+  height: 1;
+}
+
+  .login-form form h2 {
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    font-weight: 500;
+    font-size: 72px;
+  }
